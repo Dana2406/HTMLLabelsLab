@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Ejercicio HTML – Préstamo de Computadoras (STARTER)</title>
+  <title>Ejercicio HTML – Préstamo de Computadoras</title>
   <!-- Instrucciones: Trabaja SOLO en este archivo. NO crees archivos nuevos. -->
   <style>
     /* ====== ESTILOS (ya incluidos) ====== */
@@ -102,10 +102,24 @@
     <!-- ====== Sección de la tabla ====== -->
     <section id="reservas" aria-labelledby="titulo-tabla">
       <h2 id="titulo-tabla">Préstamos registrados</h2>
-      <!-- TODO-03: Crea una <table id="tabla-prestamos" class="tabla-prestamos"> con:
-           thead>tr>th (Folio, Nombre, Correo, Aula, Equipo, Fecha, Duración)
-           tbody con una fila inicial: <tr><td colspan="7">No hay préstamos aún.</td></tr>
-      -->
+      <table id="tabla-prestamos" class="tabla-prestamos">
+        <thead>
+          <tr>
+            <th scope="col">Folio</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Correo</th>
+            <th scope="col">Aula</th>
+            <th scope="col">Equipo</th>
+            <th scope="col">Fecha</th>
+            <th scope="col">Duración</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td colspan="7">No hay préstamos aún.</td>
+          </tr>
+        </tbody>
+      </table>
     </section>
   </main>
 
